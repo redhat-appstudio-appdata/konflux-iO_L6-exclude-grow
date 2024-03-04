@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: konflux
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/lixiang-happy-tenant/konflux/konflux@sha256:8e07381db7d628a60f3b09a8bd64dbb51e4321bc1b8b6510cf95b349c271a43b
+        name: container-image
+        resources: {}
+status: {}
