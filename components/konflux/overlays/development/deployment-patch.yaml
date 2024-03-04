@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/lixiang-happy-tenant/konflux/konflux@sha256:8e07381db7d628a60f3b09a8bd64dbb51e4321bc1b8b6510cf95b349c271a43b
+      - image: quay.io/redhat-user-workloads/lixiang-happy-tenant/konflux/konflux@sha256:9ce54dec397f81f3658d6aaf7ab532cddb595862fc446e1966a0652276dfc86e
         name: container-image
         resources: {}
 status: {}
