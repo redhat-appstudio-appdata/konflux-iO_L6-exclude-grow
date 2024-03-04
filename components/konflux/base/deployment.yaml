@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: konflux
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/lixiang-happy-tenant/konflux/konflux@sha256:8e07381db7d628a60f3b09a8bd64dbb51e4321bc1b8b6510cf95b349c271a43b
         imagePullPolicy: Always
         name: container-image
         ports:
